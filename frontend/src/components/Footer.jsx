@@ -16,7 +16,7 @@ export default function Footer() {
         <p>© 2025 music-shop – Música ficticia, código real 🎧</p>
         <nav className={styles.social}>
           <a
-            href="https://github.com/Manuelito18/music-shop-react"
+            href="https://github.com/Manuelito18/Music-Shop-WebSite"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
