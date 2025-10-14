@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className={styles.logo}>
           <div className={styles.logoIcon}>
             <Link to="/">
-              <img src="/imgs/icons/logonar.png" alt="Logo Colmenares" />
+              <img src="/imgs/icons/logonar.png" alt="Logo music-shop" />
             </Link>
           </div>
         </div>

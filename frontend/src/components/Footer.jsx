@@ -13,10 +13,10 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
-        <p>© 2025 Colmenares – Música ficticia, código real 🎧</p>
+        <p>© 2025 music-shop – Música ficticia, código real 🎧</p>
         <nav className={styles.social}>
           <a
-            href="https://github.com/Manuelito18/colmenares-react"
+            href="https://github.com/Manuelito18/music-shop-react"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -59,7 +59,7 @@ export default function Footer() {
             <FaYoutube />
           </a>
           <a
-            href="https://colmenares.com/libro-de-reclamaciones"
+            href="https://music-shop.com/libro-de-reclamaciones"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Libro de Reclamaciones"

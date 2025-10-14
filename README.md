@@ -1,4 +1,4 @@
-# Colmenares-PHP
+# music-shop-PHP
 
 Este proyecto es una aplicación web desarrollada con **React** y **Vite** para el frontend, y **PHP** como backend.
 
@@ -28,7 +28,7 @@ php -S localhost:8000
 ## Estructura del proyecto
 
 ```
-colmenares-PHP/
+music-shop-PHP/
 ├── frontend/   # React + Vite
 └── backend/    # PHP
 ```

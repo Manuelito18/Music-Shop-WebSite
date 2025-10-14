@@ -19,14 +19,14 @@ export default function Nosotros() {
         <div className={styles.historyText}>
           <h2>Nuestra Historia</h2>
           <p>
-            Nuestra tienda instrumentos Musicales COLMENARES nació en 2010 con
-            un sueño simple pero poderoso: hacer que la música sea accesible
-            para todos. Comenzamos como una pequeña tienda familiar en el
-            corazón de la ciudad, con la visión de ofrecer instrumentos de
-            calidad a precios justos. A lo largo de los años, hemos crecido
-            junto con nuestra comunidad musical, expandiendo nuestro catálogo y
-            servicios, pero manteniendo siempre nuestros valores fundamentales:
-            calidad, servicio personalizado y pasión por la músic
+            Nuestra tienda instrumentos Music Shop nació en 2010 con un sueño
+            simple pero poderoso: hacer que la música sea accesible para todos.
+            Comenzamos como una pequeña tienda familiar en el corazón de la
+            ciudad, con la visión de ofrecer instrumentos de calidad a precios
+            justos. A lo largo de los años, hemos crecido junto con nuestra
+            comunidad musical, expandiendo nuestro catálogo y servicios, pero
+            manteniendo siempre nuestros valores fundamentales: calidad,
+            servicio personalizado y pasión por la músic
           </p>
         </div>
         <div className={styles.historyImage}>
