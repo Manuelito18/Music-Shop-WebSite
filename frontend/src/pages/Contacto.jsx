@@ -21,7 +21,7 @@ export default function Contacto() {
           </div>
           <div className={styles.infoBlock}>
             <h4>📍 Dirección</h4>
-            <p>Direccion todavia no se construye pipol</p>
+            <p>av. Pedro Ruiz #550, Chiclayo, Perú</p>
           </div>
           <div className={styles.infoBlock}>
             <h4>⏰ Horario</h4>
@@ -51,12 +51,11 @@ export default function Contacto() {
       <div className={styles.ubication}>
         <p>Nuestra Ubicación</p>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.9937762537547!2d-79.84284262656787!3d-6.770610266206784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904ceed7fae8046b%3A0xc8a297480972a329!2sInstrumentos%20Musicales%20%22music-shop%22!5e0!3m2!1ses-419!2spe!4v1752184328958!5m2!1ses-419!2spe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0166417817145!2d-79.84507162500488!3d-6.767824493228964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef5b70567025%3A0xcc892715a010a273!2sMusic%20Shop%20-%20Chiclayo!5e0!3m2!1ses!2spe!4v1760467888672!5m2!1ses!2spe"
           width="100%"
           height="300"
-          /* allowFullscreen="" */
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <div className={styles.questions}>

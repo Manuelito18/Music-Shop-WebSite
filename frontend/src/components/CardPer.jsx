@@ -2,26 +2,26 @@ import styles from "./styles/CardPer.module.css";
 import { FaGithub } from "react-icons/fa";
 
 export default function CardPer({
-  img = null,
-  name,
-  role,
-  des,
-  github = null,
+  FotoPerfil = null,
+  Nombre,
+  Rol,
+  Correo = null,
+  Github = null,
 }) {
   return (
     <div className={styles.card}>
-      <img className={styles.photo} src={img} alt="image" />
-      <h3 className={styles.name}>{name}</h3>
-      <h4 className={styles.role}>{role}</h4>
-      <p className={styles.description}>{des}</p>
+      <img className={styles.photo} src={FotoPerfil} alt="image" />
+      <h3 className={styles.name}>{Nombre}</h3>
+      <h4 className={styles.role}>{Rol}</h4>
+      <p className={styles.description}>{Correo}</p>
 
-      {github && (
+      {Github && (
         <a
-          href={github}
+          href={Github}
           className={styles.githubIcon}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`${name}'s GitHub`}
+          aria-label={`${Nombre}'s GitHub`}
         >
           <FaGithub />
         </a>

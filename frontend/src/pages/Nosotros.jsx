@@ -1,9 +1,22 @@
 import styles from "./styles/Nosotros.module.css";
 import BlockText from "../components/BlockText";
 import CardPer from "../components/CardPer";
-import { users } from "../data/users";
+
+import { useState, useEffect } from "react";
 
 export default function Nosotros() {
+  /* implementado la carga de los datos de los programadores */
+  const [devs, setDevs] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost/appsWeb/Music-Shop-WebSite/backend/api/devs.php")
+      .then((response) => response.json())
+      .then((data) => setDevs(data))
+      .catch((error) => console.error("Error cargando devs:", error));
+  }, []);
+
+  /* --------------------------------------------------------------- */
+
   return (
     <div className={styles.container}>
       <div className={styles.section}>
@@ -36,8 +49,8 @@ export default function Nosotros() {
       <div className={styles.team}>
         <h2>Nuestro Equipo</h2>
         <div className={styles.teamUser}>
-          {users.map((user, index) => (
-            <CardPer key={index} {...user} />
+          {devs.map((dev, index) => (
+            <CardPer key={index} {...dev} />
           ))}
         </div>
       </div>
